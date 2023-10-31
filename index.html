@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Signup Form</title>
+  </head>
+  <body>
+    <div class="container">
+        <img id="mainImg" src="https://wallpaperboat.com/wp-content/uploads/2020/10/23/57871/purple-sky-14.jpg" alt="">
+      <h1>Signup Form</h1>
+      <form onsubmit="return validateForm()">
+        <input type="text" id="name" placeholder="Name" /><br />
+        <input type="text" id="username" placeholder="Username" /><br />
+        <input type="email" id="email" placeholder="Email" /><br />
+        <input type="text" id="phone" placeholder="Phone" /><br />
+        <input type="password" id="password" placeholder="Password" /><br />
+        <button type="submit">Signup</button>
+      </form>
+      <p id="error-message"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
